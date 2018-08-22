@@ -30,7 +30,7 @@ span {
 }
 
 .label-value{
-    width: 200px;
+    width: 250px;
     vertical-align: top;
 }
 
@@ -191,29 +191,40 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
+    background-image:url('https://pangongsen.github.io/cv/me.JPG');
     background-size: 120%;
     background-position:center;
-    border-radius:50%;
+    border-radius:0%;
     border:5px solid #607d8b;
-    width:160px;
-    height:160px;
+    width:130px;
+    height:200px;
 }
 
-
+.portrait-monitor {
+    margin: 0 auto;
+    margin-top:20px;
+    margin-bottom: 10px;
+    background-image:url('https://pangongsen.github.io/cv/monitor.PNG');
+    background-size: 100%;
+    background-position:center;
+    border-radius:0%;
+    border:5px solid #607d8b;
+    width:620px;
+    height:400px;
+}
 .container {
     position: relative;
     margin: 0 auto;
 
-    width: 1050px;
-    height: 1550px;
+    width: 1350px;
+    height: 3200px;
     background-color: white;
 
 }
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 450px;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
@@ -223,7 +234,7 @@ progress::-moz-progress-value {
 .main {
     
     position: relative;;
-    margin-left: 360px;
+    margin-left: 450px;
     min-height: 100%;
     padding: 20px;
 
